@@ -27,7 +27,6 @@
   gap: 10px;
   font-size: 16px;
   font-weight: 700;
-  cursor: pointer;
   min-width: 0;
 }
 
@@ -85,4 +84,8 @@
   .mobile {
     display: flex;
   }
+}
+
+.weiteo {
+  color: #888c7c;
 }

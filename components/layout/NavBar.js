@@ -11,6 +11,7 @@ import useConfig from 'hooks/useConfig';
 import useMessages from 'hooks/useMessages';
 import { useRouter } from 'next/router';
 import HamburgerButton from '../common/HamburgerButton';
+import wlogo from 'assets/weiteo.png';
 
 export default function NavBar() {
   const { pathname } = useRouter();
@@ -28,10 +29,10 @@ export default function NavBar() {
       <Row>
         <Column className={styles.left}>
           <div className={styles.logo}>
-            <Icon>
-              <Icons.Menu />
-            </Icon>
-            <Text className={styles.text}>Weiteo</Text>
+            <img src="https://weiteo.menu/images/logo-md.png" width={30} height={27} alt="Logo" />
+            <a href="https://weiteo.menu">
+              <Text className={styles.weiteo}>ويتو منيو</Text>
+            </a>
           </div>
           <div className={styles.links}>
             {links.map(({ url, label }) => {
