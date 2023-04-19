@@ -15,7 +15,7 @@ export default function Footer() {
               values={{
                 name: (
                   <a href={HOMEPAGE_URL}>
-                    <b>umami</b>
+                    <b>atm-code</b>
                   </a>
                 ),
               }}
