@@ -28,10 +28,10 @@ export default function NavBar() {
       <Row>
         <Column className={styles.left}>
           <div className={styles.logo}>
-            <Icon size="lg">
-              <Icons.Logo />
+            <Icon>
+              <Icons.Menu />
             </Icon>
-            <Text className={styles.text}>umami</Text>
+            <Text className={styles.text}>Weiteo</Text>
           </div>
           <div className={styles.links}>
             {links.map(({ url, label }) => {
