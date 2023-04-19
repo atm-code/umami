@@ -1,8 +1,6 @@
-import { useState } from 'react';
-import { Icon, Text, Row, Column } from 'react-basics';
+import { Text, Row, Column } from 'react-basics';
 import Link from 'next/link';
 import classNames from 'classnames';
-import Icons from 'components/icons';
 import ThemeButton from 'components/input/ThemeButton';
 import LanguageButton from 'components/input/LanguageButton';
 import ProfileButton from 'components/input/ProfileButton';
@@ -28,10 +26,10 @@ export default function NavBar() {
       <Row>
         <Column className={styles.left}>
           <div className={styles.logo}>
-            <Icon>
-              <Icons.Menu />
-            </Icon>
-            <Text className={styles.text}>Weiteo</Text>
+            <img src="https://weiteo.menu/images/logo-md.png" width={30} height={27} alt="Logo" />
+            <a href="https://weiteo.menu">
+              <Text className={styles.weiteo}>ويتو منيو</Text>
+            </a>
           </div>
           <div className={styles.links}>
             {links.map(({ url, label }) => {
