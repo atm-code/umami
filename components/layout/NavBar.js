@@ -1,8 +1,6 @@
-import { useState } from 'react';
-import { Icon, Text, Row, Column } from 'react-basics';
+import { Text, Row, Column } from 'react-basics';
 import Link from 'next/link';
 import classNames from 'classnames';
-import Icons from 'components/icons';
 import ThemeButton from 'components/input/ThemeButton';
 import LanguageButton from 'components/input/LanguageButton';
 import ProfileButton from 'components/input/ProfileButton';
@@ -11,7 +9,6 @@ import useConfig from 'hooks/useConfig';
 import useMessages from 'hooks/useMessages';
 import { useRouter } from 'next/router';
 import HamburgerButton from '../common/HamburgerButton';
-import wlogo from 'assets/weiteo.png';
 
 export default function NavBar() {
   const { pathname } = useRouter();

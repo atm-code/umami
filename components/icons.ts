@@ -15,7 +15,6 @@ import Sun from 'assets/sun.svg';
 import User from 'assets/user.svg';
 import Users from 'assets/users.svg';
 import Visitor from 'assets/visitor.svg';
-import Menu from 'assets/weee.svg';
 
 const icons = {
   ...Icons,
@@ -35,7 +34,6 @@ const icons = {
   User,
   Users,
   Visitor,
-  Menu,
 };
 
 export default icons;
