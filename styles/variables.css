@@ -1,6 +1,6 @@
 :root {
-  --primary400: var(--blue800);
-  --primary500: var(--blue900);
-  --primary600: var(--blue1000);
-  --primary700: var(--blue1100);
+  --primary400: #888c7c;
+  --primary500: #888c7b;
+  --primary600: #2f3229;
+  --primary700: #4e5142;
 }

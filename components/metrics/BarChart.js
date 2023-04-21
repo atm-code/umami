@@ -159,7 +159,7 @@ export default function BarChart({
   }, [animationDuration, renderTooltip, renderXLabel, stacked, colors, unit, locale]);
 
   const createChart = () => {
-    Chart.defaults.font.family = 'Inter';
+    Chart.defaults.font.family = 'El Messiri';
 
     const options = getOptions();
 

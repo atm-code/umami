@@ -8,7 +8,8 @@ const contentSecurityPolicy = `
   default-src 'self';
   img-src *;
   script-src 'self' 'unsafe-eval';
-  style-src 'self' 'unsafe-inline';
+  style-src 'self' 'unsafe-inline' fonts.googleapis.com;
+  font-src 'self' fonts.gstatic.com;
   connect-src 'self' api.umami.is;
   frame-ancestors 'self';
 `;
