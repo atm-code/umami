@@ -8,12 +8,12 @@ export const THEME_CONFIG = 'umami.theme';
 export const DASHBOARD_CONFIG = 'umami.dashboard';
 export const VERSION_CHECK = 'umami.version-check';
 export const SHARE_TOKEN_HEADER = 'x-umami-share-token';
-export const HOMEPAGE_URL = 'https://atm-code.com';
-export const REPO_URL = 'https://github.com/umami-software/umami';
+export const HOMEPAGE_URL = 'https://weiteo.menu';
+export const REPO_URL = 'https://weiteo.menu';
 export const UPDATES_URL = 'https://api.umami.is/v1/updates';
 export const TELEMETRY_PIXEL = 'https://i.umami.is/a.png';
 
-export const DEFAULT_LOCALE = 'en-US';
+export const DEFAULT_LOCALE = 'ar-SA';
 export const DEFAULT_THEME = 'light';
 export const DEFAULT_ANIMATION_DURATION = 300;
 export const DEFAULT_DATE_RANGE = '24hour';
